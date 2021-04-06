@@ -15,7 +15,9 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <Preference
+    android:key="header"
+    android:layout="@layout/header_animation" />
     <ListPreference
         android:key="dirac_headset_pref"
         android:entries="@array/dirac_headset_pref_entries"
